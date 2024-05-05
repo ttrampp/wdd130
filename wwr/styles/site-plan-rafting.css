@@ -17,9 +17,9 @@ body {
     --paragraph-font: 'Montserrat', serif;
 
     --nav-background-color: var(#1D3557);
-    --nav-link-color: var(#F1FAEE);
+    --nav-link-color: var(#35821b);
     --nav-hover-link-color: var(#e639d8);
-    --nav-hover-backfround-color: var(#f808);
+    --nav-hover-backfround-color: var(#f0c710);
 }
 
 body {
