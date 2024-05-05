@@ -8,18 +8,18 @@ body {
 }
 
 :root {
-    --primary-color: #E63946;
-    --secondary-color: #457B9D;
-    --accent1-color: #F1FAEE;
-    --accent2-color: #1D3557;
+    --primary-color: var(#E63946);
+    --secondary-color: var(#457B9D);
+    --accent1-color: var(#F1FAEE);
+    --accent2-color: var(#1D3557);
 
     --heading-font: 'Montserrat', serif;
     --paragraph-font: 'Montserrat', serif;
 
-    --nav-background-color:#1D3557;
-    --nav-link-color: #F1FAEE;
-    --nav-hover-link-color: #e639d8;
-    --nav-hover-backfround-color: #f808;
+    --nav-background-color: var(#1D3557);
+    --nav-link-color: var(#F1FAEE);
+    --nav-hover-link-color: var(#e639d8);
+    --nav-hover-backfround-color: var(#f808);
 }
 
 body {
