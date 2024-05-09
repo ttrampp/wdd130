@@ -37,6 +37,7 @@ aside {
     background-color: rgb(241, 201, 149);
     color: rgb(2, 48, 48);*/
     text-align: center;
+    position: relative;
 }
 
 aside img {
