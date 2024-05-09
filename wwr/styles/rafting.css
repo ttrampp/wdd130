@@ -23,6 +23,12 @@ article {
     position: absolute;
 }
 
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 article image {
     width: 300px;
     height: auto;
