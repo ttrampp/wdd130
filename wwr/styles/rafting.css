@@ -1,18 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --primary-color: var(#E63946);
-    --secondary-color: var(#457B9D);
-    --accent1-color: var(#F1FAEE);
-    --accent2-color: var(#1D3557);
-
     --heading-font: 'Montserrat', serif;
     --paragraph-font: 'Montserrat', serif;
-
-    --nav-background-color: var(#1D3557);
-    --nav-link-color: var(#35821b);
-    --nav-hover-link-color: var(#e639d8);
-    --nav-hover-backfround-color: var(#f0c710);
 }
 
 h1 {
