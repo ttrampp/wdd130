@@ -9,6 +9,12 @@ h1 {
     position: absolute;
 }
 
+nav a {
+    color: rgb(23, 39, 164);
+    display: block;
+    padding: 20px;
+}
+
 article {
     position: absolute;
 }
