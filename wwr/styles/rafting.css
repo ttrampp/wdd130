@@ -5,12 +5,12 @@
     --paragraph-font: 'Montserrat', serif;
 }
 
-h1 {
+h1 {              /*heading*/
     position: absolute;
 }
 
-nav a {
-    color: rgb(23, 39, 164);
+nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
+    color: rgb(23, 39, 164); 
     display: inline-block;
     padding: 20px;
 }
@@ -19,13 +19,13 @@ article {
     position: absolute;
 }
 
-.hero img {
+.hero img {      /*this is the paddle picture, the big background pic*/
     display: block;
     width: 100%;
     height: auto;
 }
 
-article image {
+article image {         /*happy rafter image*/
     width: 200px;
     height: auto;
     float: right;
