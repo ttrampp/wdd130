@@ -16,7 +16,6 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
 }
 
 .hero img {      /*this is the paddle picture, the big background pic*/
-    display: block;
     width: 100%;
     height: auto;
     background: red;
@@ -49,10 +48,9 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
 }
 
 
-.section {
-    display: inline-block;
-    width: 200px;
+
+img {
+    width: 150px;
     height: auto;
-    color: brown;
-    background-color: chocolate;
+
 }
