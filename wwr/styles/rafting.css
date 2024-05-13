@@ -33,30 +33,29 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     position: absolute;
 }
 
-
+.hero article {
+    position: absolute;
+}
 
 .hero article p {
-    position: absolute;
-    display: inline-block;
+
+    display: block;
     color: rgb(38, 67, 9);
     background-color: aqua;
-    width: 85%;
+    width: 1000px;
     height: 150px;
-    text-align: left;
-    object-fit: cover;
-
 }
 
 .hero article img {         /*happy rafter image*/
-    position: absolute;
+
     float: right;
     background-color: blueviolet;
     opacity: 50%;
-    width: 300px;
+    width: 200px;
 }
 
 
-.section2 img {
+.section img {
     position: static;
 }
 
@@ -64,7 +63,6 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
 .footer {
     width: 100px;
     height: auto;
-    position: bottom;
 }
 
 img {
