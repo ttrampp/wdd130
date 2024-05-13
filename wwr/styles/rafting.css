@@ -21,7 +21,7 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     position: relative;
 }
 
-.hero h1 {              /*company name*/
+h1 {              /*company name*/
     position: absolute;
     top: 5%;
     display: inline-block;
@@ -34,30 +34,28 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
 
 .hero img {      /*this is the paddle picture, the big background pic*/
     width: 100%;
-    display: block;
     height: auto;
-
-
-}
-
-.hero article p {      /*Lorem*/
-    position: absolute;
-    top: 70%;
-    display: block;
-    color: rgb(38, 67, 9);
-    background-color: aqua;
-    width: 950px;
-    height: 100px;
-    text-align: left;
-}
-
-.hero article img {     /*happy rafter image*/
     float: right;
-    top: 70%;
+
+}
+
+article {
+    position: absolute;
+}
+
+article p {      /*Lorem*/
+    color: rgb(240, 244, 236);
+    width: 800px;
+    padding: 100px;
+    text-align: center;
+}
+
+article img {     /*happy rafter image*/
+    float: right;
     background-color: blueviolet;
     opacity: 50%;
-    height: 100px;
-    width: auto;
+    margin: 1rem;
+    padding: 30px;
 }
 
 .footer {
@@ -68,4 +66,5 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
 img {
     width: 150px;
     height: auto;
+    display: block;
 }
