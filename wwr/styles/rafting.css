@@ -59,12 +59,6 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     width: 200px;
 }
 
-.section img {
-    position: static;
-    width: 200px;
-    height: auto;
-}
-
 .footer {
     width: 100px;
     height: auto;
