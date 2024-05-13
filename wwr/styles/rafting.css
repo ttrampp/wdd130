@@ -5,33 +5,57 @@
     --paragraph-font: 'Montserrat', serif;
 }
 
-h1 {              /*heading*/
-    position: absolute;
-}
-
 nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     color: rgb(23, 39, 164); 
     display: inline-block;
     padding: 20px;
 }
 
-article {
-    position: absolute;
+.hero {
+    position: relative;
 }
 
 .hero img {      /*this is the paddle picture, the big background pic*/
     display: block;
     width: 100%;
     height: auto;
+    background: red;
+    position: absolute;
 }
 
-article image {         /*happy rafter image*/
-    width: 200px;
-    height: auto;
-    float: right;
+.hero h1 {              /*company name*/
+    position: absolute;
+    display: inline-block;
+    padding: 10px;
+    color: blue; 
+    background-color: bisque;
+    width: 95%;
+    text-align: center;
 }
+
+.article p {
+    position: absolute;
+    display: inline-block;
+    color: chartreuse;
+    background-color: aqua;
+}
+
+.article img {         /*happy rafter image*/
+    position: absolute;
+    float: right;
+    background-color: blueviolet;
+    opacity: 50%;
+    top:0;
+    bottom: 0;
+    left: 25%;
+    right: 25%;
+}
+
 
 .section {
+    display: inline-block;
     width: 200px;
     height: auto;
+    color: brown;
+    background-color: chocolate;
 }
