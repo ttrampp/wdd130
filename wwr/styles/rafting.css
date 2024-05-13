@@ -23,6 +23,7 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
 
 .hero h1 {              /*company name*/
     position: absolute;
+    top: 5%;
     display: inline-block;
     padding: 10px;
     color: blue; 
@@ -35,28 +36,28 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     width: 100%;
     display: block;
     height: auto;
-    background: red;
-    position: absolute;
-}
 
-.hero article {
-    position: absolute;
+
 }
 
 .hero article p {      /*Lorem*/
+    position: absolute;
+    top: 70%;
     display: block;
     color: rgb(38, 67, 9);
     background-color: aqua;
     width: 950px;
-    height: 150px;
+    height: 100px;
     text-align: left;
 }
 
 .hero article img {     /*happy rafter image*/
     float: right;
+    top: 70%;
     background-color: blueviolet;
     opacity: 50%;
-    width: 200px;
+    height: 100px;
+    width: auto;
 }
 
 .footer {
