@@ -15,14 +15,6 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     position: relative;
 }
 
-.hero img {      /*this is the paddle picture, the big background pic*/
-    width: 100%;
-    display: block;
-    height: auto;
-    background: red;
-
-}
-
 .hero h1 {              /*company name*/
     position: absolute;
     display: inline-block;
@@ -33,11 +25,26 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     text-align: center;
 }
 
+.hero img {      /*this is the paddle picture, the big background pic*/
+    width: 100%;
+    display: block;
+    height: auto;
+    background: red;
+    position: absolute;
+}
+
+
+
 .hero article p {
     position: absolute;
     display: inline-block;
-    color: chartreuse;
+    color: rgb(38, 67, 9);
     background-color: aqua;
+    width: 85%;
+    height: 150px;
+    text-align: left;
+    object-fit: cover;
+
 }
 
 .hero article img {         /*happy rafter image*/
