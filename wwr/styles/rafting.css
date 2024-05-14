@@ -45,17 +45,23 @@ article {
 
 article p {      /*Lorem*/
     color: rgb(240, 244, 236);
-    width: 800px;
-    padding: 100px;
+    width: 80%;
+    padding: 90px;
     text-align: center;
+    margin-top: 935px;
+    margin-left: 200px;
+    background-color: rgba(21, 33, 110, 0.358);
 }
 
 article img {     /*happy rafter image*/
     float: right;
-    background-color: blueviolet;
-    opacity: 50%;
-    margin: 1rem;
-    padding: 30px;
+    background-color: rgb(6, 10, 63);
+    /*opacity: 50%;*/
+    margin: 2rem;
+    margin-top: 935px;
+    padding: 10px;
+    height: 150px;
+    width: auto;
 }
 
 .footer {
