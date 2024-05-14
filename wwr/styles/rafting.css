@@ -69,6 +69,11 @@ article img {     /*happy rafter image*/
     height: auto;
 }
 
+.footer nav a img {
+    width: 30px;
+    height: auto;
+}
+
 img {
     width: 150px;
     height: auto;
