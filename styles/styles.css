@@ -8,14 +8,19 @@ nav{
     background-color: steelblue;
     padding: 10px;
 }
+
 nav a {
     color: white;
     display: block;
     padding: 20px;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
 h1 {
     color: steelblue;
 }
+
 img {
     width: 150px;
     height: auto;
@@ -23,12 +28,15 @@ img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
+
 p {
     padding: 0;
 }
+
 main {
     max-width: 840px;
 }
+
 aside {
     width: 20rem;
 /*    margin: 2px;
@@ -56,11 +64,13 @@ main img {
     height: auto;
     float: right;
 }
+
 footer {
     margin-top: 12px;
     border-top: 5px dashed rgb(1, 1, 17);
     text-align: center;
 }
+
 /* Class Selectors */
 .box {
     margin: 1rem;
@@ -69,3 +79,4 @@ footer {
     background-color: #ebdede;
     color: #302222;
 }
+

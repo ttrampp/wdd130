@@ -40,7 +40,7 @@ h1 {              /*company name*/
     width: 100%;
     height: auto;
     float: right;
-
+display: block;
 }
 
 article {
@@ -61,11 +61,15 @@ article img {     /*happy rafter image*/
     float: right;
     background-color: rgb(6, 10, 63);
     /*opacity: 50%;*/
-    margin: 2rem;
+    margin-left: 850px;
+    /*margin: 2rem;*/
     margin-top: 935px;
+    /*margin-right: 50px;*/
     padding: 10px;
-    height: 150px;
-    width: auto;
+    /*height: 150px;*/
+    width: 20%;
+    /*display: inline-block;*/
+
 }
 
 .footer {
