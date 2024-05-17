@@ -9,11 +9,29 @@
     --accent2-color: #659be6 </accent2-color>;*/
 }
 
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    grid-gap: 2rem;
+    background-color: #659be6;
+}
 
+
+header img {
+    width: 150px;
+} 
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
-    color: #659be6; 
-    display: inline-block;
+    color: #fff; 
+    /*display: inline-block;*/
+    background-color: #659be6;
     padding: 20px;
 }
 
@@ -25,65 +43,71 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     position: relative;
 }
 
-h1 {              /*company name*/
+.hero h1 {              /*company name*/
     position: absolute;
-    top: 5%;
-    display: inline-block;
-    padding: 10px;
+    top: 1rem;
+    left: 0;
+    right: 0;
+    /*display: inline-block;*/
+    padding: 1rem;
     color: blue; 
     background-color: bisque;
-    width: 95%;
+    /*width: 95%;*/
     text-align: center;
 }
 
 .hero img {      /*this is the paddle picture, the big background pic*/
     width: 100%;
     height: auto;
-    float: right;
-display: block;
+    /*float: right;
+    /*display: block;*/
 }
 
-article {
+.hero article {
     position: absolute;
+    max-width: 80%;
+    padding: 1rem;
+    top: 8rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto; 
+    background-color: rgba(247, 237, 237, 0.164);
+    color: aqua;
+    text-align: center;
 }
 
-article p {      /*Lorem*/
-    color: rgb(240, 244, 236);
+/*.hero article p {      /*Lorem*/
+    /*color: rgb(240, 244, 236);
     width: 80%;
     padding: 90px;
     text-align: center;
     margin-top: 935px;
     margin-left: 200px;
     background-color: rgba(21, 33, 110, 0.358);
-}
+}*/
 
-article img {     /*happy rafter image*/
+.hero article img {     /*happy rafter image*/
     float: right;
-    background-color: rgb(6, 10, 63);
+    /*background-color: rgb(6, 10, 63);
     /*opacity: 50%;*/
-    margin-left: 850px;
+    /*margin-left: 850px;
     /*margin: 2rem;*/
-    margin-top: 935px;
+    /*/*margin-top: 935px;
     /*margin-right: 50px;*/
-    padding: 10px;
+    /*padding: 10px;
     /*height: 150px;*/
-    width: 20%;
+    width: 200px;
     /*display: inline-block;*/
 
 }
 
-.footer {
+footer {
     width: 40px;
     height: auto;
 }
 
-.footer nav a img {
+footer nav a img {
     width: 30px;
     height: auto;
 }
 
-img {
-    width: 150px;
-    height: auto;
-    display: block;
-}
