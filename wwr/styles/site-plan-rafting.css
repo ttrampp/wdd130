@@ -9,8 +9,8 @@ body {
 
 /* colors */
 :root {
-    --primary-color: var(#E63946);
-    --secondary-color: var(#457B9D);
+    --primary-color: var(blue);
+    --secondary-color: var(steelblue);
     --accent1-color: var(#F1FAEE);
     --accent2-color: var(#1D3557);
 
