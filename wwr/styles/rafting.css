@@ -11,9 +11,10 @@
 
 header {
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: 350px 800px auto;
     grid-gap: 2rem;
     background-color: #659be6;
+    justify-items: center;
 }
 
 
@@ -99,6 +100,15 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     width: 200px;
     /*display: inline-block;*/
 
+}
+
+.adventure figure {
+    display: grid;
+    grid-template-columns: 10500px 3em 20%;
+    grid-template: 20% 20% 20% 20% 20% / 200px;
+    /*justify-items: center;*/
+    /*align-items: center;*/
+    /*justify-content: flex-start;*/
 }
 
 footer {

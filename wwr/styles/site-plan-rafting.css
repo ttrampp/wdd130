@@ -16,7 +16,7 @@ body {
 
     --heading-font: 'Montserrat', serif;
     --paragraph-font: 'Montserrat', serif;
-
+    --paragraph-font-color: aqua;
     --nav-background-color: var(#1D3557);
     --nav-link-color: var beige;
     --nav-hover-link-color: var(#e639d8);
