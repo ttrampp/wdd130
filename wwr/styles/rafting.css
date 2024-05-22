@@ -102,12 +102,13 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
 }
 
 footer {
-    width: 40px;
+    text-indent: 40px;
+    width: 505px;
     height: auto;
 }
 
 footer nav a img {
-    width: 30px;
+    width: 60px;
     height: auto;
 }
 
