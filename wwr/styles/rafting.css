@@ -171,12 +171,14 @@ footer p {
     align-content: center;
     /*justify-content: center;*/
     grid-column-start: 2;
-    grid-template-columns: span 3;
+    grid-column-end: 3;
 
 }
 
 footer nav a img {
     width: auto;
     height: 40px;
+    grid-column-start: 3;
+    grid-column-end: 4;
 }
 
