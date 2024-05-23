@@ -20,7 +20,19 @@
             </fieldset>
             <fieldset>
                 <legend>Questions</legend>
+                <label for="browser">What is your favorit browser?"</label>
+                <select id="browser" name="browser">
+                    <option value="chrome">Chrome</option>
+                    <option value="firefox">Firefox</option>
+                    <option value="edge">Edge</option>
+                </select>
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet">
+                <label for="feedback">List the places you have lived:</label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Kirtland New Mexico, Durango Colorado, Monticello Utah, Kayenta Arizona"></textarea>
             </fieldset>
+            <button type="submit" onclick="alert('HIGH FIVE! You submitted your info!')">Submit Poll</button>
+            </form>
         </form>
     </main>
 </body>
