@@ -31,7 +31,6 @@ nav {
 
 nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     color: #fff; 
-    /*display: inline-block;*/
     background-color: #659be6;
     padding: 20px;
 }
@@ -49,19 +48,15 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     top: 1rem;
     left: 0;
     right: 0;
-    /*display: inline-block;*/
     padding: 1rem;
     color: blue; 
     background-color: bisque;
-    /*width: 95%;*/
     text-align: center;
 }
 
 .hero img {      /*this is the paddle picture, the big background pic*/
     width: 100%;
     height: auto;
-    /*float: right;
-    /*display: block;*/
 }
 
 .hero article {
@@ -89,93 +84,62 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
 
 .hero article img {     /*happy rafter image*/
     float: right;
-    /*background-color: rgb(6, 10, 63);
-    /*opacity: 50%;*/
-    /*margin-left: 850px;
-    /*margin: 2rem;*/
-    /*/*margin-top: 935px;
-    /*margin-right: 50px;*/
-    /*padding: 10px;
-    /*height: 150px;*/
+    padding: 10px;
     width: 200px;
-    /*display: inline-block;*/
-
 }
 
 .adventure, .grid {
     /*max-width: 840px;*/
     /*margin: 0 auto;*/
     display: grid;
-    /*grid-template: 5fr 1fr / 20% 20% 20% 20% 20%;*/
     grid-template-rows: 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 1em;
     background-color: #659be6;
     padding: 10px;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 2;
+    grid-template-columns: auto auto auto auto auto;    
 }
 
 .adventure h2, .grid {
-    /*max-width: 840px;*/
-    /*margin: 0 auto;*/
+    max-width: 92%;
     display: grid;
-    /*grid-template: 5fr 1fr / 20% 20% 20% 20% 20%;*/
-    /*grid-template-rows: 1fr 1fr;*/
-    grid-gap: 20px;
+    text-align: center;
     background-color: #e665b0;
     padding: 10px;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    grid-row: span;
+    grid-column: span 5;
+    grid-row: span 2;
+    
 }
 
 
 .adventure figure img, .grid {
-    /*max-width: 840px;*/
-    /*margin: 0 auto;*/
+    max-width: 90%;
+    margin: 0 auto;
     display: grid;
-    /*grid-template: 5fr 1fr / 20% 20% 20% 20% 20%;*/
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 20px;
-    background-color: #659be6;
-    padding: 10px;
-    grid-row-start: 1;
-    grid-row-end: 3;
+    grid-gap: 1em;
+    background-color: #e68e65;
+    padding: 5px;
+    grid-column: span 5;
+    height: 150px;
+    width: auto;
 }
+
 
 
 .adventure figcaption, .grid {
-    /*max-width: 840px;*/
-    /*margin: 0 auto;*/
+    max-width: 90%;
     display: grid;
-    /*grid-template: 5fr 1fr / 20% 20% 20% 20% 20%;*/
     grid-template-rows: 1fr 1fr;
     grid-gap: 20px;
-    background-color: #659be6;
+    background-color: #65e678;
     padding: 10px;
     grid-row-start: 1;
     grid-row-end: 3;
+    width: 200px;
+    text-align: center;
 }
 
-
-.adventure figure img {
-    display: grid;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    /*flex-direction: column;*/
-    /*grid-gap: 10px;*/
-    height: 150px;
-    /*grid-column-end: span 5;
-    /*display: flex;*/
-    /*grid-template-columns: 50px 1fr 1fr 1fr 50px;*/
-    /*grid-template-rows: 20% 20% 20% 20% 20%;*/
-    /*width: 20%;*/
-    /*display: flexbox;*/
-    /*flex-wrap: nowrap;*/
-    /*justify-items: center;*/
-    /*align-items: center;*/
-    /*justify-content: space-evenly;*/
-}
 
 footer {
     text-indent: 40px;
