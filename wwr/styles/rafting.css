@@ -74,6 +74,10 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     text-align: center;
 }
 
+.hero article h2 {
+    color: rgba(245, 245, 220, 0);
+}
+
 /*.hero article p {      /*Lorem*/
     /*color: rgb(240, 244, 236);
     width: 80%;
