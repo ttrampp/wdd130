@@ -41,6 +41,7 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
 
 .hero {
     position: relative;
+    margin-top: 20px;
 }
 
 .hero h1 {              /*company name*/
@@ -57,6 +58,7 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
 .hero img {      /*this is the paddle picture, the big background pic*/
     width: 100%;
     height: auto;
+    border: double #659be6;
 }
 
 .hero article {
@@ -68,7 +70,7 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     right: 0;
     margin: 0 auto; 
     background-color: rgba(247, 237, 237, 0.164);
-    color: aqua;
+    color: beige;
     text-align: center;
 }
 
@@ -89,11 +91,11 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
 }
 
 .history {
-    background-color: beige;
     text-align: center;
+    background-color: beige;
     border: double #659be6;
+    margin-top: 20px;
 }
-
 
 
 
@@ -108,6 +110,7 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     grid-row-start: 1;
     grid-row-end: 2;
     grid-template-columns: auto auto auto auto auto;    
+    margin-top: 20px;
 }
 
 .adventure h2, .grid {
@@ -152,13 +155,28 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
 
 
 footer {
-    text-indent: 40px;
-    width: 505px;
+    display: grid;
+    text-indent: 80px;
     height: auto;
+    background-color: #659be6;
+    grid-template-columns: 1fr 1fr 1fr;
+    min-width: 100%;
+    border: double beige;
+    margin-top: 20px;
+
+}
+
+footer p {
+    background-color: #659be6;
+    align-content: center;
+    /*justify-content: center;*/
+    grid-column-start: 2;
+    grid-template-columns: span 3;
+
 }
 
 footer nav a img {
-    width: 60px;
-    height: auto;
+    width: auto;
+    height: 40px;
 }
 
