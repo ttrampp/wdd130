@@ -14,35 +14,35 @@
         <form>
             <fieldset>
                 <legend>Contact Information</legend>
-                <div>
+                <div class="form-item column2">
                     <label for="fullname">Full Name</label>
                     <input type="text" id="fullname" name="fullname">
                 </div>
-                <div>
+                <div class="form-item column2">
                     <label for="useremail">Email</label>
                     <input type="email" id="useremail" name="useremail">
                 </div>
             </fieldset>
             <fieldset>
                 <legend>Questions</legend>
-                <div>
-                    <label for="browser">What is your favorit browser?"</label>
+                <div class="form-item column1">
+                    <label for="browser">What is your favorite browser?"</label>
                     <select id="browser" name="browser">
                         <option value="chrome">Chrome</option>
                         <option value="firefox">Firefox</option>
                         <option value="edge">Edge</option>
                     </select>
                     </div>
-                <div>
+                    <div class="form-item column1">
                     <label for="pet">Do you have a household pet?</label>
                     <input type="checkbox" id="pet" name="pet">
                 </div>
-                <div>
+                <div class="form-item places">
                     <label for="feedback">List the places you have lived:</label>
                     <textarea id="feedback" name="feedback" rows="4" placeholder="Kirtland New Mexico, Durango Colorado, Monticello Utah, Kayenta Arizona"></textarea>
                 </div>
                 </fieldset>
-            <button type="submit" onclick="alert('HIGH FIVE! You submitted your info!')">Submit Poll</button>
+            <button type="submit" onclick="alert('HIGH FIVE! You submitted your info!')">Submit Poll</button> <!--onclick alert added-not-required code-->
         </form>
     </main>
     <footer>

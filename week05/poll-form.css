@@ -78,6 +78,26 @@ input[type="checkbox"] {
     vertical-align: bottom;
 }
 
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: .5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 1rem 0;
+}
+
+.places {
+    grid-template-columns: 1fr 2fr;
+    margin: 1rem 0;
+}
+
 button {
     background-color: rgb(3, 26, 74);
     color: white;
