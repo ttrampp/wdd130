@@ -194,7 +194,17 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     
 }
 
-
+.meetus p, .grid {
+    /*max-width: 90%;*/
+    display: grid;
+    text-align: center;
+    background-color: beige;
+    /*padding: 10px;*/
+    grid-column: span 3;
+    grid-row: span 2;
+    border: double blue;
+    
+}
 .meetus figure img, .grid {
     max-width: 100%;
     margin: 0 auto;
