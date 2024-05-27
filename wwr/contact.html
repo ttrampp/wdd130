@@ -37,7 +37,7 @@
             <p>wetpaddle@gmail.com</p>
         </section>
         <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d11198.539552213197!2d-107.87258368709843!3d36.9940919919139!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1716787652862!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d11198.539552213197!2d-107.87258368709843!3d36.9940919919139!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1716787652862!5m2!1sen!2sus" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
         </div>
         <section class="meetus">
             <h2>Meet our team!
@@ -67,6 +67,60 @@
                     <figcaption>Group Rafting</figcaption>
             </figure>-->
         </section>
+        <div class="formfill">
+            <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <div class="form-item column2">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" name="fullname">
+                    </div>
+                    <div class="form-item column2">
+                        <label for="useremail">Email</label>
+                        <input type="email" id="useremail" name="useremail">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <!--<legend>Message</legend>
+                    <div class="form-item column1">
+                        <label for="browser">What is your favorite browser?"</label>
+                        <select id="browser" name="browser">
+                            <option value="chrome">Chrome</option>
+                            <option value="firefox">Firefox</option>
+                            <option value="edge">Edge</option>
+                        </select>
+                    </div>-->
+                    <legend>What message would you like to leave for us?</legend>
+                    <div class="inquiry">
+                        
+                        <input type="radio" id="General-Inquiry" name="General-Inquiry" value="General-Inquiry" />
+                        <label for="General-Inquiry">General Inquiry</label>
+                        
+                        <input type="radio" id="Reservation-Question" name="Reservation-Question" value="Reservation-Question" />
+                        <label for="Reservation-Question">Reservation Question</label>
+                       
+                        <input type="radio" id="Website-Suggestion" name="Website-Suggestion" value="Website-Suggestion" />
+                        <label for="Website-Suggestion">Website Suggestion</label>
+                        
+                    </div>
+                        
+
+                    <div class="form-item purpose">
+                        <label for="feedback">Please leave your message here:</label>
+                        <textarea id="feedback" name="feedback" rows="4" placeholder="Type message here"></textarea>
+                    </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Subscribe</legend>
+                        <div class="form-item section3">
+                            <label for="Subscribe">Please subscribe to our monthly newsletter:</label>
+                            <input type="checkbox" id="Subscribe" name="Subscribe">
+                        </div>
+                    </fieldset>
+                <button type="submit" onclick="alert('HIGH FIVE! You submitted your info!')">Submit Poll</button> <!--onclick alert added-not-required code-->
+            </form>
+    
+        </div>
     </main>
     <footer>
         <p>©2024 | Wet Paddle Rafting Adventures | Tanya Trampp</p>
