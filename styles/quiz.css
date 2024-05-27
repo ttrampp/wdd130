@@ -9,14 +9,14 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(3, 26, 74);
-    background-color: rgb(220, 191, 156);
+    background-color: rgb(194, 190, 190);
     font-size: small;
 }
 
 header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: brown;
-    background-color: beige;
+    background-color: rgb(201, 216, 202);
     margin: 0 auto;
     width: 90%;
     text-align: center;
@@ -36,9 +36,9 @@ form {
     width: 90%;
     margin: auto;
     padding: 20px;
-    border: dotted;
-    border-radius: 8% / 20%;
-    background-color: rgb(171, 171, 214);
+    border: dashed;
+    border-radius: 30px;
+    background-color: rgb(171, 214, 172);
     display: grid;
 }
 
