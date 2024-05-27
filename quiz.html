@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | Quiz </title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Tanya Trampp | Basic HTML and CSS Quiz</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <!--<legend></legend>-->
+                <div class="form-item q1">
+                    <label for="fill in the blank">1. Every HTML document requires this element. Type the code for a valid document type:</label>    <!-- <!DOCTYPE html -->
+                    <input type="text" id="q1" name="q1">
+                </div> 
+                <div class="form-item q2">
+                    <label for="short answer">2. Type an example of CSS code for a FOOTER, with a MARGIN and PADDING of 10 pixels, and a BORDER all around of 1 pixel solid and black:  </label>
+                    <textarea id="q12" name="q2" rows="4" placeholder="footer {margin:, padding, border }"></textarea>
+                </div>
+                <div class="form-item q3">
+                    <label for="dropdown">3. Which is the correct way to comment out a line of code in CSS?"</label>
+                    <select id="q3" name="q3">
+                        <option value="chrome"># your comment here</option>
+                        <option value="firefox">/* your comment here */</option>
+                        <option value="edge">-- your comment here --</option>
+                    </select>
+                </div>
+                <div class="form-item q4">
+                    <label for="number">4. What is the top margin given in the declaration: margin: 5px 1px 8px;</label>    <!-- <!DOCTYPE html -->
+                    <input type="number" id="q4" name="q4">
+                </div>
+            </fieldset>
+            <button type="submit" onclick="alert('HIGH FIVE! You submitted your info!')">Submit Quiz</button> <!--onclick alert added-not-required code-->
+        </form>
+    </main>
+</body>
+</html>
