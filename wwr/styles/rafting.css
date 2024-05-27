@@ -101,7 +101,12 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     margin-top: 20px;
 }
 
-
+.contactus {
+    text-align: center;
+    background-color: beige;
+    border: double #659be6;
+    margin: 20px 300px 20px;
+}
 
 .adventure, .grid {
     /*max-width: 840px;*/
@@ -157,6 +162,64 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     text-align: center;
 }
 
+
+.map {
+    margin-left: 475px;
+}
+
+.meetus, .grid {
+    /*max-width: 840px;*/
+    /*margin: 0 auto;*/
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1em;
+    background-color: #659be6;
+    /*padding: 10px;*/
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-template-columns: auto auto auto auto auto;    
+    margin-top: 20px;
+}
+
+.meetus h2, .grid {
+    /*max-width: 90%;*/
+    display: grid;
+    text-align: center;
+    background-color: beige;
+    /*padding: 10px;*/
+    grid-column: span 3;
+    grid-row: span 2;
+    border: double blue;
+    
+}
+
+
+.meetus figure img, .grid {
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1em;
+    background-color: beige;
+    padding: 5px;
+    grid-column: span 5;
+    height: 150px;
+    width: auto;
+}
+
+
+
+.meetus figcaption, .grid {
+    max-width: 95%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+    /*background-color: #65e678;*/
+    padding: 10px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 200px;
+    text-align: center;
+}
 
 footer {
     display: grid;
