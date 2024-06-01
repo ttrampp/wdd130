@@ -9,7 +9,7 @@ header {
     display: grid;
     grid-template-columns: 350px 800px auto;
     grid-gap: 2rem;
-    background-color: #3F4F5D;
+    background-color: #424F67;
     justify-items: center;
 }
 
@@ -26,13 +26,13 @@ nav {
 }
 
 nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
-    color: #CBCAC3; 
-    background-color: #3F4F5D;
+    color: #E3F3F7; 
+    background-color: #424F67;
     padding: 20px;
 }
 
 .h2 {
-    color: black;
+    color: #382D0D;
 }
 
 .hero {
@@ -46,32 +46,32 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     left: 0;
     right: 0;
     padding: 1rem;
-    color: #3F4F5D; 
-    background-color: #CBCAC3;
+    color: #424F67; 
+    background-color: #E3F3F7;
     text-align: center;
 }
 
 .hero img {      /*this is the paddle picture, the big background pic*/
     width: 100%;
     height: auto;
-    border: double #3F4F5D;
+    border: double #424F67;
 }
 
 .hero article {
     position: absolute;
-    max-width: 80%;
+    max-width: 90%;
     padding: 1rem;
     top: 8rem;
     left: 0;
     right: 0;
     margin: 0 auto; 
-    background-color: #3B4238;
-    color: #CBCAC3;
+    background-color: #424F67;
+    color: #E3F3F7;
     text-align: center;
 }
 
 .hero article h2 {
-    color: rgba(245, 245, 220, 0);
+    color: #382D0D;
 }
 
 /*.hero article p {      /*Lorem*/
@@ -92,15 +92,15 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
 
 .history {
     text-align: center;
-    background-color: #CBCAC3;
-    border: double #3F4F5D;
+    background-color: #E3F3F7;
+    border: double #424F67;
     margin-top: 20px;
 }
 
 .contactus {
     text-align: center;
-    background-color: #CBCAC3;
-    border: double #3F4F5D;
+    background-color: #E3F3F7;
+    border: double #424F67;
     margin: 20px 300px 20px;
 }
 
@@ -110,7 +110,7 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-gap: 1em;
-    background-color: #3F4F5D;
+    background-color: #424F67;
     /*padding: 10px;*/
     grid-row-start: 1;
     grid-row-end: 2;
@@ -122,11 +122,11 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     /*max-width: 90%;*/
     display: grid;
     text-align: center;
-    background-color: #CBCAC3;
+    background-color: #E3F3F7;
     /*padding: 10px;*/
     grid-column: span 5;
     grid-row: span 2;
-    border: double #3F4F5D;
+    border: double #424F67;
     
 }
 
@@ -136,7 +136,7 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     margin: 0 auto;
     display: grid;
     grid-gap: 1em;
-    background-color: #CBCAC3;
+    background-color: #E3F3F7;
     padding: 5px;
     grid-column: span 5;
     height: 150px;
@@ -169,7 +169,7 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-gap: 1em;
-    background-color: #3F4F5D;
+    background-color: #424F67;
     /*padding: 10px;*/
     grid-row-start: 1;
     grid-row-end: 2;
@@ -182,11 +182,11 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     /*max-width: 90%;*/
     display: grid;
     text-align: center;
-    background-color: #CBCAC3;
+    background-color: #E3F3F7;
     /*padding: 10px;*/
     grid-column: span 3;
     grid-row: span 2;
-    border: double #3F4F5D;
+    border: double #424F67;
     
 }
 
@@ -194,11 +194,11 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     /*max-width: 90%;*/
     display: grid;
     text-align: center;
-    background-color: #CBCAC3;
+    background-color: #E3F3F7;
     /*padding: 10px;*/
     grid-column: span 3;
     grid-row: span 2;
-    border: double #3F4F5D;
+    border: double #424F67;
     
 }
 .meetus figure img, .grid {
@@ -206,7 +206,7 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     margin: 0 auto;
     display: grid;
     grid-gap: 1em;
-    background-color: #CBCAC3;
+    background-color: #E3F3F7;
     padding: 5px;
     grid-column: span 5;
     height: 150px;
@@ -232,16 +232,16 @@ footer {
     display: grid;
     text-indent: 80px;
     height: auto;
-    background-color: #3F4F5D;
+    background-color: #424F67;
     grid-template-columns: 1fr 1fr 1fr;
     min-width: 100%;
-    border: double #CBCAC3;
+    border: double #E3F3F7;
     margin-top: 20px;
 
 }
 
 footer p {
-    background-color: #3F4F5D;
+    background-color: #424F67;
     align-content: center;
     /*justify-content: center;*/
     grid-column-start: 2;
@@ -257,8 +257,8 @@ footer p {
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(3, 26, 74);
-    background-color: #BEB199;
+    color: #9AADC1;
+    background-color: #5B301A;
     font-size: small;
 }
 
@@ -277,7 +277,7 @@ body {
 
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #3F4F5D;
+    color: #424F67;
     text-align: center;
 }
 
@@ -287,7 +287,7 @@ form {
     padding: 20px;
     border: dotted;
     border-radius: 30px;
-    background-color: #3F4F5D;
+    background-color: #424F67;
     display: grid;
 }
 
@@ -302,7 +302,7 @@ fieldset {
 
 fieldset legend {
     font-size: larger;
-    color: rgb(3, 26, 74);
+    color: #9AADC1;
     font-weight: bolder;
 }
 
@@ -343,7 +343,7 @@ input[type="checkbox"] {
 }
 
 .message {
-    color: rgb(3, 26, 74);
+    color: #9AADC1;
     margin-left: 635px;
 }
 
@@ -358,12 +358,12 @@ input[type="checkbox"] {
 }
 
 button {
-    background-color: #837760;
+    background-color: #5B301A;
     color: #000;
 }
 
 button:hover {
-    background-color: #CBCAC3;
+    background-color: #C48C5E;
 }
 
 
