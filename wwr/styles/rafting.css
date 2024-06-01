@@ -3,17 +3,13 @@
 :root {
     --heading-font: 'Montserrat', serif;
     --paragraph-font: 'Montserrat', serif;
-    /*--primary-color: #E63946 </primary-color>;
-    --secondary-color: #457B9D </secondary-color>;
-    --accent1-color: #F1FAEE </accent1-color>;
-    --accent2-color: #659be6 </accent2-color>;*/
 }
 
 header {
     display: grid;
     grid-template-columns: 350px 800px auto;
     grid-gap: 2rem;
-    background-color: #659be6;
+    background-color: #3F4F5D;
     justify-items: center;
 }
 
@@ -30,8 +26,8 @@ nav {
 }
 
 nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
-    color: #fff; 
-    background-color: #659be6;
+    color: #CBCAC3; 
+    background-color: #3F4F5D;
     padding: 20px;
 }
 
@@ -50,15 +46,15 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     left: 0;
     right: 0;
     padding: 1rem;
-    color: blue; 
-    background-color: bisque;
+    color: #3F4F5D; 
+    background-color: #CBCAC3;
     text-align: center;
 }
 
 .hero img {      /*this is the paddle picture, the big background pic*/
     width: 100%;
     height: auto;
-    border: double #659be6;
+    border: double #3F4F5D;
 }
 
 .hero article {
@@ -69,8 +65,8 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     left: 0;
     right: 0;
     margin: 0 auto; 
-    background-color: rgba(247, 237, 237, 0.164);
-    color: beige;
+    background-color: #3B4238;
+    color: #CBCAC3;
     text-align: center;
 }
 
@@ -96,15 +92,15 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
 
 .history {
     text-align: center;
-    background-color: beige;
-    border: double #659be6;
+    background-color: #CBCAC3;
+    border: double #3F4F5D;
     margin-top: 20px;
 }
 
 .contactus {
     text-align: center;
-    background-color: beige;
-    border: double #659be6;
+    background-color: #CBCAC3;
+    border: double #3F4F5D;
     margin: 20px 300px 20px;
 }
 
@@ -114,7 +110,7 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-gap: 1em;
-    background-color: #659be6;
+    background-color: #3F4F5D;
     /*padding: 10px;*/
     grid-row-start: 1;
     grid-row-end: 2;
@@ -126,11 +122,11 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     /*max-width: 90%;*/
     display: grid;
     text-align: center;
-    background-color: beige;
+    background-color: #CBCAC3;
     /*padding: 10px;*/
     grid-column: span 5;
     grid-row: span 2;
-    border: double blue;
+    border: double #3F4F5D;
     
 }
 
@@ -140,7 +136,7 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     margin: 0 auto;
     display: grid;
     grid-gap: 1em;
-    background-color: beige;
+    background-color: #CBCAC3;
     padding: 5px;
     grid-column: span 5;
     height: 150px;
@@ -173,7 +169,7 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-gap: 1em;
-    background-color: #659be6;
+    background-color: #3F4F5D;
     /*padding: 10px;*/
     grid-row-start: 1;
     grid-row-end: 2;
@@ -186,11 +182,11 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     /*max-width: 90%;*/
     display: grid;
     text-align: center;
-    background-color: beige;
+    background-color: #CBCAC3;
     /*padding: 10px;*/
     grid-column: span 3;
     grid-row: span 2;
-    border: double blue;
+    border: double #3F4F5D;
     
 }
 
@@ -198,11 +194,11 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     /*max-width: 90%;*/
     display: grid;
     text-align: center;
-    background-color: beige;
+    background-color: #CBCAC3;
     /*padding: 10px;*/
     grid-column: span 3;
     grid-row: span 2;
-    border: double blue;
+    border: double #3F4F5D;
     
 }
 .meetus figure img, .grid {
@@ -210,7 +206,7 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     margin: 0 auto;
     display: grid;
     grid-gap: 1em;
-    background-color: beige;
+    background-color: #CBCAC3;
     padding: 5px;
     grid-column: span 5;
     height: 150px;
@@ -236,16 +232,16 @@ footer {
     display: grid;
     text-indent: 80px;
     height: auto;
-    background-color: #659be6;
+    background-color: #3F4F5D;
     grid-template-columns: 1fr 1fr 1fr;
     min-width: 100%;
-    border: double beige;
+    border: double #CBCAC3;
     margin-top: 20px;
 
 }
 
 footer p {
-    background-color: #659be6;
+    background-color: #3F4F5D;
     align-content: center;
     /*justify-content: center;*/
     grid-column-start: 2;
@@ -262,7 +258,7 @@ footer p {
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(3, 26, 74);
-    background-color: rgb(220, 191, 156);
+    background-color: #BEB199;
     font-size: small;
 }
 
@@ -281,7 +277,7 @@ body {
 
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: steelblue;
+    color: #3F4F5D;
     text-align: center;
 }
 
@@ -291,7 +287,7 @@ form {
     padding: 20px;
     border: dotted;
     border-radius: 30px;
-    background-color: #659be6;
+    background-color: #3F4F5D;
     display: grid;
 }
 
@@ -362,12 +358,12 @@ input[type="checkbox"] {
 }
 
 button {
-    background-color: rgb(3, 26, 74);
-    color: white;
+    background-color: #837760;
+    color: #000;
 }
 
 button:hover {
-    background-color: brown;
+    background-color: #CBCAC3;
 }
 
 
