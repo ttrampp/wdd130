@@ -65,7 +65,7 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     left: 0;
     right: 0;
     margin: 0 auto; 
-    background-color: #424F67;
+    background-color: #424f67b9;
     color: #E3F3F7;
     text-align: center;
 }
@@ -258,7 +258,7 @@ footer p {
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #382D0D;
-    background-color: #6E4B43;
+    background-color: #6e4b43;
     font-size: small;
 }
 
