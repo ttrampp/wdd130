@@ -372,3 +372,9 @@ footer nav a img {
     grid-column-start: 3;
     grid-column-end: 4;
 }
+
+/* trips page specific info */
+
+tripstable {
+    color: #74B4DF;
+}
