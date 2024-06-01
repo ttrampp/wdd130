@@ -257,8 +257,8 @@ footer p {
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #9AADC1;
-    background-color: #5B301A;
+    color: #382D0D;
+    background-color: #6E4B43;
     font-size: small;
 }
 
@@ -302,7 +302,7 @@ fieldset {
 
 fieldset legend {
     font-size: larger;
-    color: #9AADC1;
+    color: #382D0D;
     font-weight: bolder;
 }
 
@@ -343,7 +343,7 @@ input[type="checkbox"] {
 }
 
 .message {
-    color: #9AADC1;
+    color: #382D0D;
     margin-left: 635px;
 }
 
@@ -358,15 +358,13 @@ input[type="checkbox"] {
 }
 
 button {
-    background-color: #5B301A;
-    color: #000;
+    background-color: #74B4DF;
+    color: #382D0D;
 }
 
 button:hover {
     background-color: #C48C5E;
 }
-
-
 
 footer nav a img {
     width: auto;
@@ -374,4 +372,3 @@ footer nav a img {
     grid-column-start: 3;
     grid-column-end: 4;
 }
-
