@@ -375,6 +375,78 @@ footer nav a img {
 
 /* trips page specific info */
 
-tripstable {
-    color: #74B4DF;
+.tripstable * {
+    color: #382D0D;
+    text-align: center;
+    /*background-color: #E3F3F7;*/
+    /*border: double #424F67;*/
+    margin: 20px 200px 20px;
+}
+
+.tripstable, table, tr, th {
+    border: 1px solid #424F67;
+}
+
+.tripstable, table {
+    background-color: #E3F3F7;
+    text-align: center;
+    padding: 20px;
+}
+
+.tripstable, tr:nth-child(even){background-color: #C48C5E;}
+
+.tripstable, tr:hover {background-color: #74B4DF;}
+
+
+.packages {
+    /*max-width: 840px;*/
+    /*margin: 0 auto;*/
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1em;
+    background-color: #424F67;
+    /*padding: 10px;*/
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-template-columns: auto auto auto auto auto;    
+    margin-top: 20px;
+}
+
+.packages h2, .grid {
+    /*max-width: 90%;*/
+    display: grid;
+    text-align: center;
+    background-color: #E3F3F7;
+    /*padding: 10px;*/
+    grid-column: span 5;
+    grid-row: span 2;
+    border: double #424F67;
+    
+}
+
+.packages figure img, .grid {
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1em;
+    background-color: #E3F3F7;
+    padding: 5px;
+    grid-column: span 5;
+    height: 150px;
+    width: auto;
+}
+
+
+
+.packages figcaption, .grid {
+    max-width: 95%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+    /*background-color: #65e678;*/
+    padding: 10px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 200px;
+    text-align: center;
 }
