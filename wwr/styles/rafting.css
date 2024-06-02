@@ -394,6 +394,10 @@ footer nav a img {
     font-weight: bold;
 }
 
+.tripstable, h2 {
+    font-weight: bold;
+}
+
 .tripstable, tr:nth-child(even){background-color: #C48C5E;}
 
 .tripstable, tr:hover {background-color: #74B4DF;}
