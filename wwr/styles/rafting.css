@@ -391,6 +391,7 @@ footer nav a img {
     background-color: #E3F3F7;
     text-align: center;
     padding: 20px;
+    font-weight: bold;
 }
 
 .tripstable, tr:nth-child(even){background-color: #C48C5E;}
@@ -449,4 +450,5 @@ footer nav a img {
     grid-row-end: 3;
     width: 200px;
     text-align: center;
+    font-weight: bold;
 }
