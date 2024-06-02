@@ -456,3 +456,151 @@ footer nav a img {
     text-align: center;
     font-weight: bold;
 }
+
+/*index page specific info*/
+
+.herofull {
+    position: relative;
+    margin-top: 20px;
+}
+
+.herofull h1 {              /*company name*/
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    color: #424F67; 
+    background-color: #E3F3F7;
+    text-align: center;
+}
+
+.herofull img {      /*instructions do not say you can't use the same image as other pages, i like the consistency, so using it*/
+    width: 100%;
+    height: auto;
+    border: double #424F67;
+}
+
+.herofull article {
+    position: absolute;
+    max-width: 90%;
+    padding: 1rem;
+    top: 8rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto; 
+    background-color: #424f67b9;
+    color: #E3F3F7;
+    text-align: center;
+}
+
+.herofull article h2 {
+    color: #382D0D;
+}
+
+.purposeoff, figure1, figure2, figure3, figure4 {
+    /*max-width: 840px;*/
+    /*margin: 0 auto;*/
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    /*grid-gap: 1em;*/
+    background-color: #424F67;
+    /*padding: 10px;*/
+    /*grid-row-start: 1;
+    grid-row-end: 6;*/
+    grid-template-columns: 20% 20% 20% 20% 20%;    
+    /*margin-top: 20px;*/
+}
+
+.purposeoff h2, .grid {
+    /*max-width: 90%;*/
+    display: grid;
+    text-align: center;
+    background-color: #E3F3F7;
+    /*padding: 10px;*/
+    grid-column: span 5;
+    grid-row: span .5;
+    border: double #424F67;
+    
+}
+
+.purposeoff figure1, img{
+    /*max-width: 100%;*/
+    /*margin: 0 auto;*/
+    display: grid;
+    /*grid-template-columns: 20% 20% 20% 20% 20%; 
+    grid-template-rows: 20% 20% 20% 20% 20%;*/ 
+    /*grid-gap: 1em;*/
+    background-color: #E3F3F7;
+    padding: 5px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /*grid-column: span 1;*/
+    /*grid-row: span 1;*/
+    grid-row-start: 1;
+    height: 150px;
+    /*width: auto;*/
+}
+
+.purposeoff figure2 img, .grid {
+    /*max-width: 100%;*/
+    /*margin: 0 auto;*/
+    display: grid;
+    /*grid-gap: 1em;*/
+    background-color: #E3F3F7;
+    padding: 5px;
+    /*grid-column: span 3;*/
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    height: 150px;
+    /*width: auto;*/
+}
+.purposeoff figure3 img, .grid {
+    /*max-width: 100%;
+    margin: 0 auto;*/
+    display: grid;
+    /*grid-gap: 1em;*/
+    background-color: #E3F3F7;
+    padding: 5px;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    height: 150px;
+    /*width: auto;*/
+}
+.purposeoff figure4 img, .grid {
+    /*max-width: 200px;*/
+    /*margin: 0 auto;*/
+    display: grid;
+    /*grid-gap: 1em;*/
+    background-color: #E3F3F7;
+    padding: 5px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 150px;
+    /*width: auto;*/
+}
+
+/*.purposeoff figcaption, .grid {
+    max-width: 95%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+    /*background-color: #65e678;
+    padding: 10px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+}*/
+
+/*.offerings h2 article {
+    font-weight: bold;
+    background-color: #E3F3F7;
+    display: grid;
+    height: 50px;
+}*/
+
+
+
