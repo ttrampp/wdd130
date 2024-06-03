@@ -520,7 +520,7 @@ footer nav a img {
     background-color: #E3F3F7;
     /*padding: 10px;*/
     grid-column: span 5;
-    grid-row: span .5;
+    grid-row: span 1;
     border: double #424F67;
     
 }
