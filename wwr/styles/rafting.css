@@ -517,6 +517,7 @@ footer nav a img {
     max-width: 95%;
     display: grid;
     text-align: center;
+    align-items: center;
     background-color: #E3F3F7;
     /*padding: 10px;*/
     grid-column: span 3;
@@ -566,6 +567,7 @@ footer nav a img {
     grid-column: 2/4;
     grid-row: 2;
     text-align: center;
+    align-items: center;
 }
 
 .item3 {
@@ -587,4 +589,5 @@ footer nav a img {
     grid-column: 2/4;
     grid-row: 4;
     text-align: center;
+    align-items: center;
 }
