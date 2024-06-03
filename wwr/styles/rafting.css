@@ -534,7 +534,7 @@ footer nav a img {
     /*grid-template-columns: 20% 20% 20% 20% 20%; 
     grid-template-rows: 20% 20% 20% 20% 20%;*/ 
     /*grid-gap: 1em;*/
-    background-color: #E3F3F7;
+    /*background-color: #E3F3F7;*/
     /*padding: 5px;*/
     /*grid-column-start: 1;
     grid-column-end: 3;*/
@@ -553,7 +553,7 @@ footer nav a img {
     /*margin: 0 auto;*/
     /*display: grid;
     /*grid-gap: 1em;*/
-    background-color: #E3F3F7;
+    /*background-color: #E3F3F7;*/
     padding: 0;
     grid-column: span 2;
     grid-column-start: 2;
@@ -576,7 +576,7 @@ footer nav a img {
     margin: 0 auto;*/
     /*display: grid;
     /*grid-gap: 1em;*/
-    background-color: #E3F3F7;
+    /*background-color: #E3F3F7;*/
     padding: 0;
     grid-row-start: 4;
     grid-row-end: 6;
