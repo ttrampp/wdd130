@@ -161,6 +161,7 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
 
 .map {
     margin-left: 600px;
+    justify-content: center;
 }
 
 .meetus, .grid {
