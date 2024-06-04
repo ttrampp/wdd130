@@ -29,6 +29,7 @@ nav a {        /*this is where the Home, About Us, Trips, Contact Us links are*/
     color: #E3F3F7; 
     background-color: #424F67;
     padding: 20px;
+    text-decoration: none;
 }
 
 .h2 {
